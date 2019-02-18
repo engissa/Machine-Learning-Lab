@@ -67,7 +67,7 @@ In this exercise, the dataset (file heightWeigth.mat) is used to build a classif
 1) Two-class quadratic discriminant analysis (fit mean and covariance are class specific) 2) Two-class quadratic discriminant analysis with diagonal covariance matrices
 3) Two class linear discriminant analysis (fit a shared covariance matrix)
 ### Results:
-![Graphs](https://github.com/engissa/Machine-Learning-Lab/blob/master/Figures/l2ex4.png)
+![Graphs](https://github.com/engissa/Machine-Learning-Lab/blob/master/Figures/L2ex4.png)
  Classifier| Males (%) | Females (%) | Average (%)
  --------- | --------- | ----------- | -------
 Quadratic Discriminant Analysis | 84 | 97.14 | 90.57
