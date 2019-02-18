@@ -68,8 +68,9 @@ In this exercise, the dataset (file heightWeigth.mat) is used to build a classif
 3) Two class linear discriminant analysis (fit a shared covariance matrix)
 ### Results:
 ![Graphs](https://github.com/engissa/Machine-Learning-Lab/blob/master/Figures/L2ex4.png)
- Classifier| Males (%) | Females (%) | Average (%)
- --------- | --------- | ----------- | -------
+
+Classifier| Males (%) | Females (%) | Average (%)
+---------|---------|---------|---------
 Quadratic Discriminant Analysis | 84 | 97.14 | 90.57
 QDA with diagonal covariance | 83 | 91 | 87
 LDA with shared covariance matrix | 60 | 100 | 80
