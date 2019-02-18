@@ -89,3 +89,12 @@ In this exercise, a dataset of two classes “10: Soybean-notill” and “2: Co
 PCA was implemented to reduce the features dimensionality of our dataset from 220 to a new dataset of K uncorrelated significant features (principal components). PCA implies the distribution centering by subtracting the mean. Afterward, the dataset was divided into two sets Train and Test. MSE was calculated on different number of principal components to interpret how choosing K components is affecting the error rate of the classifier. It is clearly in the above figure the increase of principal components in the newly produced dataset increases accuracy of the classifier. In addition, after taking the first 100 components the error rate of the classifier became constant and didn’t show any change for any additional components. Hence, choosing only first K components will be enough to reconstruct the dataset that satisfy the computational capabilities.
 ### Additional:
 The same testing was done on normalized data , that showed how the MSE highly decreased for lower values of K.
+
+# LAB 5
+## Exercise 1 - Kalman Filter
+### Introduction:
+In this exercise the goal is to estimate the next (x,y) position of a moving object using Kalman Filter by the observation of the previous positions.
+With the following parameters we we got the graph below:
+![Graphs](https://github.com/engissa/Machine-Learning-Lab/blob/master/Figures/L5tb1.png)
+![Graphs](https://github.com/engissa/Machine-Learning-Lab/blob/master/Figures/L5ex.png)
+It is well visible how the estimated coordinate corrected the position with time that makes Kalman filters ideal for systems which are continuously changing and that don’t need to keep any history other than the previous state, and they are very fast, making them well suited for real time problems and embedded systems. As seen here it was able to get a good result in the first few instances.
